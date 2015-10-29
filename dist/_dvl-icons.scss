@@ -2,17 +2,17 @@
 
 
 @font-face {
-	font-family:"icons";
-	src:url("icons.eot");
-	src:url("icons.eot?#iefix") format("embedded-opentype"),
-		url("icons.woff") format("woff"),
-		url("icons.ttf") format("truetype");
+	font-family:"dvl-icons";
+	src:url("dvl-icons.eot");
+	src:url("dvl-icons.eot?#iefix") format("embedded-opentype"),
+		url("dvl-icons.woff") format("woff"),
+		url("dvl-icons.ttf") format("truetype");
 	font-weight:normal;
 	font-style:normal;
 }
 
 .icon {
-	font-family:"icons";
+	font-family:"dvl-icons";
 	display:inline-block;
 	vertical-align:middle;
 	line-height:1;

@@ -5,6 +5,7 @@ module.exports = function(grunt){
         src: 'icons/*.svg',
         dest: 'dist',
         options: {
+          font: 'dvl-icons',
           hashes: false,
           stylesheet: 'scss',
           htmlDemoTemplate: 'support/demo_template.html',

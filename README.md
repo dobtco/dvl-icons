@@ -8,7 +8,7 @@ dvl-icons
 
 ## Previewing
 
-- `open dist/icons.html`
+- `open dist/dvl-icons.html`
 
 ## Distributing
 
