@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" fill="none"><path d="M9 3.5l-8.5 8.5 8.5 8.5M15 3.5l8.5 8.5-8.5 8.5"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Outline_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<path d="M9.354,3.146c-0.195-0.195-0.512-0.195-0.707,0l-8.5,8.5c-0.195,0.195-0.195,0.512,0,0.707l8.5,8.5
+		C8.744,20.951,8.872,21,9,21s0.256-0.049,0.354-0.146c0.195-0.195,0.195-0.512,0-0.707L1.207,12l8.146-8.146
+		C9.549,3.658,9.549,3.342,9.354,3.146z"/>
+	<path d="M23.854,11.646l-8.5-8.5c-0.195-0.195-0.512-0.195-0.707,0s-0.195,0.512,0,0.707L22.793,12l-8.146,8.146
+		c-0.195,0.195-0.195,0.512,0,0.707C14.744,20.951,14.872,21,15,21s0.256-0.049,0.354-0.146l8.5-8.5
+		C24.049,12.158,24.049,11.842,23.854,11.646z"/>
+</g>
+</svg>
