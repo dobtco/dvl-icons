@@ -7,8 +7,8 @@ module.exports = function(grunt){
         options: {
           hashes: false,
           stylesheet: 'scss',
-          htmlDemoTemplate: 'demo_template.html',
-          codepointsFile: 'codepoints.json'
+          htmlDemoTemplate: 'support/demo_template.html',
+          codepointsFile: 'support/codepoints.json'
         }
       }
     }
