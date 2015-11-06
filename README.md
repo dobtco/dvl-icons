@@ -4,7 +4,7 @@ dvl-icons
 ## Developing
 
 - `npm install`
-- `brew install ttfautohint fontforge --with-python`
+- `brew install ttfautohint fontforge --with-python` (or install dependencies via boxen)
 
 ## Previewing
 
