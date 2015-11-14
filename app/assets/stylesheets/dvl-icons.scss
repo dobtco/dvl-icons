@@ -32,6 +32,11 @@
 // Icons
 
 
+.icon_activity:before {
+  content:"\f1a1";
+}
+
+
 .icon_add:before {
   content:"\f156";
 }
@@ -69,6 +74,11 @@
 
 .icon_assign:before {
   content:"\f15d";
+}
+
+
+.icon_at_sign:before {
+  content:"\f1a2";
 }
 
 
@@ -117,11 +127,6 @@
 }
 
 
-.icon_chat:before {
-  content:"\f166";
-}
-
-
 .icon_check:before {
   content:"\f167";
 }
@@ -129,6 +134,16 @@
 
 .icon_check_circle:before {
   content:"\f168";
+}
+
+
+.icon_circle:before {
+  content:"\f1a3";
+}
+
+
+.icon_circle_open:before {
+  content:"\f1a4";
 }
 
 
@@ -167,8 +182,18 @@
 }
 
 
+.icon_connection:before {
+  content:"\f1a5";
+}
+
+
 .icon_copy:before {
   content:"\f16e";
+}
+
+
+.icon_crosshair:before {
+  content:"\f1a6";
 }
 
 
@@ -212,6 +237,11 @@
 }
 
 
+.icon_dropdown:before {
+  content:"\f1a7";
+}
+
+
 .icon_email:before {
   content:"\f124";
 }
@@ -232,13 +262,23 @@
 }
 
 
+.icon_globe:before {
+  content:"\f1a8";
+}
+
+
 .icon_graph:before {
   content:"\f17a";
 }
 
 
-.icon_help-circle:before {
-  content:"\f130";
+.icon_hash:before {
+  content:"\f12f";
+}
+
+
+.icon_help_circle:before {
+  content:"\f1a9";
 }
 
 
@@ -259,6 +299,11 @@
 
 .icon_indent_increase:before {
   content:"\f17e";
+}
+
+
+.icon_input:before {
+  content:"\f1aa";
 }
 
 
@@ -312,13 +357,13 @@
 }
 
 
-.icon_number:before {
-  content:"\f188";
+.icon_organization:before {
+  content:"\f189";
 }
 
 
-.icon_organization:before {
-  content:"\f189";
+.icon_page_break:before {
+  content:"\f1ab";
 }
 
 
@@ -337,13 +382,13 @@
 }
 
 
-.icon_public:before {
-  content:"\f18c";
+.icon_questions:before {
+  content:"\f18d";
 }
 
 
-.icon_questions:before {
-  content:"\f18d";
+.icon_radio_buttons:before {
+  content:"\f1ac";
 }
 
 
@@ -359,6 +404,11 @@
 
 .icon_search:before {
   content:"\f14d";
+}
+
+
+.icon_section_break:before {
+  content:"\f1ad";
 }
 
 
@@ -392,6 +442,11 @@
 }
 
 
+.icon_star_open:before {
+  content:"\f1ae";
+}
+
+
 .icon_status:before {
   content:"\f196";
 }
@@ -404,6 +459,11 @@
 
 .icon_sync:before {
   content:"\f198";
+}
+
+
+.icon_table:before {
+  content:"\f1af";
 }
 
 
@@ -429,6 +489,11 @@
 
 .icon_user:before {
   content:"\f19b";
+}
+
+
+.icon_users:before {
+  content:"\f1b0";
 }
 
 
