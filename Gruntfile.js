@@ -18,12 +18,12 @@ module.exports = function(grunt){
       fonts: {
         cwd: 'tmp/',
         src: ['*.{eot,ttf,woff}'],
-        dest: 'vendor/assets/dvl-icons/fonts',
+        dest: 'vendor/assets/dvl-icons',
         expand: true
       },
       stylesheets: {
         src: 'tmp/_dvl-icons.scss',
-        dest: 'vendor/assets/dvl-icons/stylesheets/dvl-icons.scss'
+        dest: 'vendor/assets/dvl-icons/dvl-icons.scss'
       }
     },
     clean: {
