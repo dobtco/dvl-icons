@@ -8,6 +8,7 @@ module.exports = function(grunt){
           font: 'dvl-icons',
           hashes: false,
           stylesheet: 'scss',
+          fontHeight: 24,
           template: 'support/template.css',
           htmlDemoTemplate: 'support/demo_template.html',
           codepointsFile: 'support/codepoints.json'
