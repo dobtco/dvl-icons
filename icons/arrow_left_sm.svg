@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow_left_sm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow_left_sm" sketch:type="MSArtboardGroup" fill="#474747">
+            <path d="M2.11550618,8.45415217 L15.20675,8.45415217 C15.4828924,8.45415217 15.70675,8.23029455 15.70675,7.95415217 C15.70675,7.6780098 15.4828924,7.45415217 15.20675,7.45415217 L2.11550618,7.45415217 L8.98243123,1.14852361 C9.18582913,0.961751276 9.19930681,0.645455806 9.01253448,0.442057904 C8.82576215,0.238660002 8.50946668,0.225182317 8.30606877,0.411954651 L0.49490882,7.58463718 C0.394655556,7.6760779 0.33175,7.80776885 0.33175,7.95415217 C0.33175,8.1005355 0.394655556,8.23222645 0.49490882,8.32366717 L8.30606877,15.4963497 C8.50946668,15.683122 8.82576215,15.6696443 9.01253448,15.4662464 C9.19930681,15.2628485 9.18582913,14.9465531 8.98243123,14.7597807 L2.11550618,8.45415217 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
