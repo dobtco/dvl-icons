@@ -39,6 +39,27 @@ module.exports = function(grunt){
         files: {
           'lib/dvl/icons/definitions.rb': ['src/definitions.rb.tpl']
         }
+      },
+      preview: {
+        options: {
+          data: function(){
+            var icons = {};
+            var files = grunt.file.expand('dist/icons/*.svg');
+            for (i in files) {
+              var fp = files[i];
+              var iconName = fp.split('/')[2].split('.')[0];
+              var svg = grunt.file.read(fp);
+              icons[iconName.toUpperCase()] = svg;
+            }
+            return {
+              icons: icons,
+              css: grunt.file.read('app/assets/stylesheets/dvl/icons.css')
+            };
+          }
+        },
+        files: {
+          'preview.html': ['src/preview.html.tpl']
+        }
       }
     }
   });
