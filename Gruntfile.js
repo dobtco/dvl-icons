@@ -3,15 +3,16 @@ module.exports = function(grunt){
     svgmin: {
       options: {
         plugins: [
-          { removeTitle: true }
+          { removeTitle: true },
+          { addClassesToSVGElement: { className: 'icon'} }
         ]
       },
       all: {
         files: [{
           expand: true,
-          cwd: 'icons/',
+          cwd: 'src/icons/',
           src: ['*.svg'],
-          dest: 'icons_min/'
+          dest: 'dist/icons/'
         }]
       }
     },
@@ -20,10 +21,10 @@ module.exports = function(grunt){
         options: {
           data: function(){
             var icons = {};
-            var files = grunt.file.expand('icons_min/*.svg');
+            var files = grunt.file.expand('dist/icons/*.svg');
             for (i in files) {
               var fp = files[i];
-              var iconName = fp.split('/')[1].split('.')[0];
+              var iconName = fp.split('/')[2].split('.')[0];
               var svg = grunt.file.read(fp);
 
               // Remove <svg> tag from icon
@@ -36,17 +37,13 @@ module.exports = function(grunt){
           }
         },
         files: {
-          'lib/dvl/icons/definitions.rb': ['support/definitions.rb.tpl']
+          'lib/dvl/icons/definitions.rb': ['src/definitions.rb.tpl']
         }
       }
-    },
-    clean: {
-      icons: ['icons_min/']
     }
   });
 
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-template');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.registerTask('default', ['svgmin', 'template', 'clean']);
+  grunt.registerTask('default', ['svgmin', 'template']);
 }
