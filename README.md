@@ -1,15 +1,27 @@
 dvl-icons
 ----
 
+Takes `<svg>` source files, generates Ruby helpers and a small CSS snippet for use in our apps.
+
 ## Developing
 
 - `npm install`
-- `brew install ttfautohint fontforge --with-python` (or install dependencies via boxen)
+- Edit files in `src/icons/` directory
+- Run `grunt`
+- Check output in `preview.html`
 
-## Previewing
+## Usage (Rails)
 
-- `open dist/dvl-icons.html`
+- `gem 'dvl-icons'` in Gemfile
+- `@import 'dvl/icons'` in asset manifest
+- `icon('activity')` in views
 
-## Distributing
+## Usage (Jekyll)
 
-TBD
+- `gem 'dvl-icons'` in Gemfile
+- `@import 'dvl/icons'` in asset manifest
+- Helper TBD
+
+## Usage (Other)
+
+- Minified SVGs are in `dist/icons/`

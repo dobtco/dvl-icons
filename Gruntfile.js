@@ -1,39 +1,70 @@
 module.exports = function(grunt){
   grunt.initConfig({
-    webfont: {
-      icons: {
-        src: 'icons/*.svg',
-        dest: 'tmp',
+    svgmin: {
+      options: {
+        plugins: [
+          { removeTitle: true },
+          { addClassesToSVGElement: { className: 'icon'} }
+        ]
+      },
+      all: {
+        files: [{
+          expand: true,
+          cwd: 'src/icons/',
+          src: ['*.svg'],
+          dest: 'dist/icons/'
+        }]
+      }
+    },
+    template: {
+      definitions: {
         options: {
-          font: 'dvl-icons',
-          hashes: false,
-          stylesheet: 'scss',
-          fontHeight: 768,
-          template: 'support/template.css',
-          codepointsFile: 'support/codepoints.json'
+          data: function(){
+            var icons = {};
+            var files = grunt.file.expand('dist/icons/*.svg');
+            for (i in files) {
+              var fp = files[i];
+              var iconName = fp.split('/')[2].split('.')[0];
+              var svg = grunt.file.read(fp);
+
+              // Remove <svg> tag from icon
+              var bits = svg.split('><');
+              bits.shift();
+              var svgPathsOnly = '<' + bits.join('><').replace('</svg>', '');
+              icons[iconName.toUpperCase()] = '%{' + svgPathsOnly + '}';
+            }
+            return { icons: icons };
+          }
+        },
+        files: {
+          'lib/dvl/icons/definitions.rb': ['src/definitions.rb.tpl']
+        }
+      },
+      preview: {
+        options: {
+          data: function(){
+            var icons = {};
+            var files = grunt.file.expand('dist/icons/*.svg');
+            for (i in files) {
+              var fp = files[i];
+              var iconName = fp.split('/')[2].split('.')[0];
+              var svg = grunt.file.read(fp);
+              icons[iconName.toUpperCase()] = svg;
+            }
+            return {
+              icons: icons,
+              css: grunt.file.read('app/assets/stylesheets/dvl/icons.css')
+            };
+          }
+        },
+        files: {
+          'preview.html': ['src/preview.html.tpl']
         }
       }
-    },
-    copy: {
-      fonts: {
-        cwd: 'tmp/',
-        src: ['*.{eot,ttf,woff}'],
-        dest: 'app/assets/fonts',
-        expand: true
-      },
-      stylesheets: {
-        src: 'tmp/_dvl-icons.scss',
-        dest: 'app/assets/stylesheets/dvl-icons.scss'
-      }
-    },
-    clean: {
-      compiled: ['tmp']
     }
   });
 
-  grunt.loadNpmTasks('grunt-webfont');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-
-  grunt.registerTask('default', ['webfont', 'copy', 'clean']);
+  grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-template');
+  grunt.registerTask('default', ['svgmin', 'template']);
 }
