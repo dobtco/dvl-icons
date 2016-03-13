@@ -18,7 +18,7 @@ module.exports = function(grunt){
         options: {
           data: function(){
             var icons = {};
-            var files = grunt.file.expand('icons/*.svg');
+            var files = grunt.file.expand('icons_min/*.svg');
             for (i in files) {
               var fp = files[i];
               var iconName = fp.split('/')[1].split('.')[0];
