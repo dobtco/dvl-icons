@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>caret_up_sm</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="caret_up_sm" sketch:type="MSArtboardGroup" fill="#474747">
-            <path d="M1.35355339,11.3535534 L8.35355339,4.35355339 L7.64644661,4.35355339 L14.6464466,11.3535534 C14.8417088,11.5488155 15.1582912,11.5488155 15.3535534,11.3535534 C15.5488155,11.1582912 15.5488155,10.8417088 15.3535534,10.6464466 L8.35355339,3.64644661 C8.15829124,3.45118446 7.84170876,3.45118446 7.64644661,3.64644661 L0.646446609,10.6464466 C0.451184464,10.8417088 0.451184464,11.1582912 0.646446609,11.3535534 C0.841708755,11.5488155 1.15829124,11.5488155 1.35355339,11.3535534 L1.35355339,11.3535534 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>caret_up_sm</title><path d="M1.354 11.354l7-7h-.708l7 7a.5.5 0 0 0 .708-.708l-7-7a.5.5 0 0 0-.708 0l-7 7a.5.5 0 0 0 .708.708z" fill="#474747" fill-rule="evenodd"/></svg>

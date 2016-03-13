@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>caret_left_sm</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="caret_left_sm" sketch:type="MSArtboardGroup" fill="#474747">
-            <path d="M10.6746043,1.6203717 L3.67460431,7.6203717 C3.44179856,7.81991949 3.44179856,8.18008051 3.67460431,8.3796283 L10.6746043,14.3796283 C10.8842672,14.5593394 11.1999172,14.5350586 11.3796283,14.3253957 C11.5593394,14.1157328 11.5350586,13.8000828 11.3253957,13.6203717 L4.32539569,7.6203717 L4.32539569,8.3796283 L11.3253957,2.3796283 C11.5350586,2.19991723 11.5593394,1.88426723 11.3796283,1.67460431 C11.1999172,1.46494139 10.8842672,1.44066062 10.6746043,1.6203717 L10.6746043,1.6203717 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>caret_left_sm</title><path d="M10.675 1.62l-7 6a.5.5 0 0 0 0 .76l7 6a.5.5 0 0 0 .65-.76l-7-6v.76l7-6a.5.5 0 1 0-.65-.76z" fill="#474747" fill-rule="evenodd"/></svg>

@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
-    <title>plus_sm</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="plus_sm" sketch:type="MSArtboardGroup" fill="#979797">
-            <path d="M7,7 L7,0.5 C7,0.223857625 7.22385763,0 7.5,0 C7.77614237,0 8,0.223857625 8,0.5 L8,7 L14.5,7 C14.7761424,7 15,7.22385763 15,7.5 C15,7.77614237 14.7761424,8 14.5,8 L8,8 L8,14.5 C8,14.7761424 7.77614237,15 7.5,15 C7.22385763,15 7,14.7761424 7,14.5 L7,8 L0.5,8 C0.223857625,8 0,7.77614237 0,7.5 C0,7.22385763 0.223857625,7 0.5,7 L7,7 Z" id="Shape" sketch:type="MSShapeGroup"></path>
-        </g>
-    </g>
-</svg>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><title>plus_sm</title><path d="M7 7V.5a.5.5 0 0 1 1 0V7h6.5a.5.5 0 1 1 0 1H8v6.5a.5.5 0 1 1-1 0V8H.5a.5.5 0 0 1 0-1H7z" fill="#979797" fill-rule="evenodd"/></svg>
