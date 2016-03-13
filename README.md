@@ -6,7 +6,7 @@ Takes `<svg>` source files, generates Ruby helpers and a small CSS snippet for u
 ## Developing
 
 - `npm install`
-- Edit files in `src/icons/` directory
+- Edit SVG files in `src/icons/` directory
 - Run `grunt`
 - Check output in `preview.html`
 
@@ -24,4 +24,4 @@ Takes `<svg>` source files, generates Ruby helpers and a small CSS snippet for u
 
 ## Usage (Other)
 
-- Minified SVGs are in `dist/icons/`
+- Compiled CSS and minified SVGs are in `dist/icons/`

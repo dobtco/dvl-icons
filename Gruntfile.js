@@ -16,6 +16,16 @@ module.exports = function(grunt){
         }]
       }
     },
+    sass: {
+      options: {
+        sourcemap: 'none'
+      },
+      all: {
+        files: {
+          'dist/icons.css': ['app/assets/stylesheets/dvl/icons.scss']
+        }
+      }
+    },
     template: {
       definitions: {
         options: {
@@ -66,5 +76,6 @@ module.exports = function(grunt){
 
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-template');
+  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.registerTask('default', ['svgmin', 'template']);
 }

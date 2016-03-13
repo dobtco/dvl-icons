@@ -14,4 +14,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.test_files = `git ls-files -- {features,spec}/*`.split("\n")
   s.homepage = 'http://github.com/dobtco/dvl-icons'
+  s.add_dependency 'sass'
 end
