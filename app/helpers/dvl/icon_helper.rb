@@ -15,8 +15,10 @@ module Dvl::IconHelper
       viewbox: '0 0 24 24',
       'aria-hidden' => !opts[:title]
     ) {
-      opts[:title] ? content_tag(title, opts[:title]) : '' +
-      Dvl::Icons::Definitions.const_get(name.upcase).html_safe
+      (
+        opts[:title] ? content_tag(title, opts[:title]) : '' +
+        Dvl::Icons::Definitions.const_get(name.upcase)
+      ).html_safe
     }
   end
 end
