@@ -24,10 +24,11 @@ module.exports = function(grunt){
               var iconName = fp.split('/')[1].split('.')[0];
               var svg = grunt.file.read(fp);
 
-              // Add .icon and .icon_* classes to svg strings
-              svg = svg.replace('<svg', '<svg class="icon icon_' + iconName + '"');
-
-              icons[iconName.toUpperCase()] = '%{' + svg + '}';
+              // Remove <svg> tag from icon
+              var bits = svg.split('><');
+              bits.shift();
+              var svgPathsOnly = '<' + bits.join('><').replace('</svg>', '');
+              icons[iconName.toUpperCase()] = '%{' + svgPathsOnly + '}';
             }
             return { icons: icons };
           }
