@@ -3,8 +3,8 @@ module.exports = function(grunt){
     svgmin: {
       options: {
         plugins: [
-          { removeViewBox: false },
-          { removeUselessStrokeAndFill: false }
+          { removeViewBox: true }//,
+          // { removeUselessStrokeAndFill: false }
         ]
       },
       all: {
