@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.5 24.004a.5.5 0 0 1-.5-.5v-23a.5.5 0 0 1 1 0v23a.5.5 0 0 1-.5.5z"/><path d="M22.5 13.504a.5.5 0 0 1-.375-.17L11.5 1.26.875 13.335a.5.5 0 1 1-.75-.66l11-12.5a.515.515 0 0 1 .75 0l11 12.5a.5.5 0 0 1-.375.83z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Outline_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<g>
+		<path d="M11.5,24.004c-0.276,0-0.5-0.224-0.5-0.5v-23c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v23
+			C12,23.78,11.776,24.004,11.5,24.004z"/>
+	</g>
+	<g>
+		<path d="M22.5,13.504c-0.139,0-0.276-0.058-0.375-0.17L11.5,1.261L0.875,13.334c-0.183,0.208-0.499,0.228-0.706,0.045
+			c-0.208-0.182-0.228-0.498-0.045-0.705l11-12.5c0.19-0.217,0.561-0.217,0.751,0l11,12.5c0.182,0.207,0.162,0.523-0.045,0.705
+			C22.735,13.463,22.618,13.504,22.5,13.504z"/>
+	</g>
+</g>
+</svg>

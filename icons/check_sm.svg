@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>check_sm</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="check_sm" sketch:type="MSArtboardGroup" fill="#474747">
+            <path d="M14.1874617,0.417092125 L4.14398349,14.4170921 L5.66362852,14.2928932 L1.70710678,10.3363715 C1.31658249,9.94584719 0.683417511,9.94584719 0.292893219,10.3363715 C-0.0976310729,10.7268958 -0.0976310729,11.3600608 0.292893219,11.750585 L4.24941496,15.7071068 C4.68577632,16.1434681 5.40934278,16.0843319 5.76905999,15.5829079 L15.8125383,1.58290788 C16.1344694,1.13415539 16.0316604,0.50939288 15.5829079,0.187461749 C15.1341554,-0.134469381 14.5093929,-0.0316603599 14.1874617,0.417092125 L14.1874617,0.417092125 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

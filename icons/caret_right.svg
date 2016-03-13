@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M5.5 24a.5.5 0 0 1-.332-.874L17.746 12 5.17.874a.5.5 0 1 1 .66-.748l13 11.5a.5.5 0 0 1 0 .748l-13 11.5A.493.493 0 0 1 5.5 24z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Outline_Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g>
+	<path d="M5.5,24c-0.138,0-0.276-0.057-0.375-0.169c-0.183-0.207-0.164-0.522,0.043-0.705L17.746,12L5.169,0.874
+		C4.962,0.691,4.942,0.376,5.125,0.169c0.183-0.208,0.5-0.227,0.706-0.043l13,11.5C18.938,11.721,19,11.856,19,12
+		s-0.062,0.279-0.169,0.374l-13,11.5C5.736,23.959,5.618,24,5.5,24z"/>
+</g>
+</svg>
