@@ -2,7 +2,9 @@ module.exports = function(grunt){
   grunt.initConfig({
     svgmin: {
       options: {
-        plugins: []
+        plugins: [
+          { removeTitle: true }
+        ]
       },
       all: {
         files: [{
