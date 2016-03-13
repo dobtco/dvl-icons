@@ -7,18 +7,3 @@ $baseIconSize: 24px;
   width: $baseIconSize;
   height: $baseIconSize;
 }
-
-.icon_sm {
-  width: $baseIconSize * 0.75;
-  height: $baseIconSize * 0.75;
-}
-
-.icon_lg {
-  width: $baseIconSize * 2;
-  height: $baseIconSize * 2;
-}
-
-.icon_xl {
-  width: $baseIconSize * 3;
-  height: $baseIconSize * 3;
-}

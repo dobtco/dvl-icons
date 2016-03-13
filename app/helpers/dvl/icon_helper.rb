@@ -7,14 +7,6 @@ module Dvl::IconHelper
   def icon(name, opts = {})
     classes = ['icon', "icon_#{name}"]
 
-    if opts[:size]
-      if opts[:size].to_s.in? %w(sm lg xl)
-        classes << "icon_#{opts[:size]}"
-      else
-        fail 'Invalid icon size'
-      end
-    end
-
     content_tag(
       :svg,
       class: classes.join(' '),
