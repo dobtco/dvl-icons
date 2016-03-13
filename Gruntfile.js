@@ -2,17 +2,14 @@ module.exports = function(grunt){
   grunt.initConfig({
     svgmin: {
       options: {
-        plugins: [
-          { removeViewBox: true }//,
-          // { removeUselessStrokeAndFill: false }
-        ]
+        plugins: []
       },
       all: {
         files: [{
           expand: true,
           cwd: 'icons/',
           src: ['*.svg'],
-          dest: 'icons/'
+          dest: 'icons_min/'
         }]
       }
     },
@@ -39,10 +36,14 @@ module.exports = function(grunt){
           'lib/dvl/icons/definitions.rb': ['support/definitions.rb.tpl']
         }
       }
+    },
+    clean: {
+      icons: ['icons_min/']
     }
   });
 
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-template');
-  grunt.registerTask('default', ['svgmin', 'template']);
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.registerTask('default', ['svgmin', 'template', 'clean']);
 }
