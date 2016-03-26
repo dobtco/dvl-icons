@@ -1,0 +1,15 @@
+.icon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  width: 24px;
+  height: 24px;
+}
+
+.iconfill {
+  fill: currentColor;
+}
